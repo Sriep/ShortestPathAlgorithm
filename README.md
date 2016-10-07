@@ -25,3 +25,5 @@ Graph Filename in csv form giving the distance between each vertex in table form
 0, 0, 2, 0, 0, 0, 6, 7, 0
 
 Prints out the distance to each vertex with timing of each algorithm.
+
+Built using QT.
