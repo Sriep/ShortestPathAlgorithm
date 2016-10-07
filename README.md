@@ -17,7 +17,9 @@ Graph Filename in csv form giving the distance between each vertex in table form
 0, 0, 0, 9, 0, 10, 0, 0, 0
 
 0, 0, 4, 14, 10, 0, 2, 0, 0
+
 0, 0, 0, 0, 0, 2, 0, 1, 6
+
 8, 11, 0, 0, 0, 0, 1, 0, 7
 
 0, 0, 2, 0, 0, 0, 6, 7, 0
