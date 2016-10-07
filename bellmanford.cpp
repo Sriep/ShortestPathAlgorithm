@@ -14,9 +14,7 @@ vector <int> BellmanFord::runAlgorithm(int source)
 
     const vector<Graph::Edge> edges = graph.getEdges();
 
-    //const int UNSET = -1;
     vector<int> distances(size, INT_MAX);
- //   vector<int> predecessors(size, UNSET);
     distances[source] = 0;
 
     bool changed = true;
@@ -26,16 +24,12 @@ vector <int> BellmanFord::runAlgorithm(int source)
         changed = false;
         for ( int i = 0 ; i < edges.size() ; i++ )
         {
-            //Graph::Edge e = edges[i];
-            //int d = distances[edges[i].from] + edges[i].length;
-            //int ef = distances[edges[i].to];
             if ( distances[edges[i].from] != INT_MAX
                  && distances[edges[i].from] + edges[i].length
                     < distances[edges[i].to] )
             {
                 distances[edges[i].to]
                         = distances[edges[i].from] + edges[i].length;
-//                predecessors[edges[i].to] = edges[i].from;
                 changed = true;
             }
         }
